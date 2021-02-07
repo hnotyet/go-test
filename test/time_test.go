@@ -8,6 +8,9 @@ import (
 
 func TestTime(t *testing.T){
 
-	fmt.Print("aaaaa="+time.Hour.String())
+//	fmt.Print("aaaaa="+time.Hour.String())
+	
+	fmt.Print(string(time.Now().Unix()))
+
 
 }
